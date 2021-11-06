@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&family=Dancing+Script:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(#0084ff, #3e80be);
+}
+
+.container button {
+    outline: none;
+    border: none;
+    padding: 15px;
+    width: 280px;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 2px solid lightgreen;
+    transition: .8s;
+}
+
+.container button:hover {
+    background: lightgreen;
+    box-shadow: 10px 10px 50px limegreen, 0 0 80px rgb(36, 155, 36), 0 0 120px lime;
+}
